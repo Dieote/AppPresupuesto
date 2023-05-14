@@ -1,4 +1,4 @@
-<form>
+<form (ngSubmit)="f.form.valid && agregarValor()" #f="ngForm"> <!-- hacemos referencia local al objeto del formulario-->
   <div class="agregar">
       <div class="agregar_contenedor">
           <select [ngClass]="{redfocus: tipo === 'egresoOperacion'}"
@@ -8,12 +8,12 @@
           </select>
           <input [ngClass]="{redfocus: tipo === 'egresoOperacion'}"
           type="text" class="agregar_descripcion" placeholder="Agregar Descripción"
-          name="descripcionInput" [(ngModel)]="descripcionInput">
+          name="descripcionInput" [(ngModel)]="descripcionInput" required>
 
           <input [ngClass]="{redfocus: tipo === 'egresoOperacion'}"
           type="number" class="agregar_valor" placeholder="Valor"
-          name="valorInput" [(ngModel)]="valorInput">
-          <button type="submit" class="agregar_btn" (click)="agregarValor()"><i
+          name="valorInput" [(ngModel)]="valorInput" required>
+          <button type="submit" class="agregar_btn"><i
           [ngClass]="{red: tipo === 'egresoOperacion'}"
           class="ion-ios-checkmark-outline"></i></button>
       </div>
