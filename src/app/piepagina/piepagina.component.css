@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  margin-top: auto;
+  background-color: antiquewhite;
+}
+.piePagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.piePagina p {
+  margin-right: 60px;
+}
+.piePagina img {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
+}
