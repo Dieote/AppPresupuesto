@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { PiepaginaComponent } from './piepagina/piepagina.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,7 @@ import { PiepaginaComponent } from './piepagina/piepagina.component';
     EgresoComponent,
     IngresoComponent,
     FormularioComponent,
-    PiepaginaComponent,
+    PiepaginaComponent
 
   ],
   imports: [
