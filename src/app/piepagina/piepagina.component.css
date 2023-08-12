@@ -1,7 +1,9 @@
 .footer {
   text-align: center;
   margin-top: auto;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background: rgb(173,12,18);
+background: linear-gradient(90deg, rgba(173,12,18,0.7455357142857143) 11%, rgba(124,23,195,0.7959558823529411) 90%);
 }
 .piePagina {
   display: flex;
@@ -10,6 +12,7 @@
 }
 .piePagina p {
   margin-right: 60px;
+  color: black;
 }
 .piePagina img {
   display: inline-block;

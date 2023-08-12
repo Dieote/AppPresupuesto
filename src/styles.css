@@ -170,8 +170,8 @@ body {
 .agregar_btn:focus { outline: none; }
 
 .contenedor {
-    width: 1000px;
-    margin: 60px auto;
+    width: 100%;
+    margin: 5% 7%;
 }
 
 .ingreso {
